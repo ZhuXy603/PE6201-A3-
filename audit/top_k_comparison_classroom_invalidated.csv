@@ -1,0 +1,44 @@
+top_k,case_id,kind,retrieved_ids,retrieved_ranks,scores,answer,latency_ms,prompt_tokens,completion_tokens
+1,typical_1,typical,2,1,0.630,"The maximum unified memory available for the MacBook Pro M3 Max is 96GB.
+
+Evidence: followed by the relevant document numbers. Evidence: [1]",1915.3,368,33
+1,typical_2,typical,0,1,0.737,The iPhone 15 Pro Max can deliver up to 24 hours of video playback. Evidence: followed by Document Number [1].,1528.9,469,29
+1,typical_3,typical,4,1,0.724,"The Apple Watch model certified for recreational scuba diving is the Apple Watch Ultra 2.
+
+Evidence: followed by the relevant document numbers. Evidence: [1]",983.6,350,33
+1,typical_4,typical,6,1,0.560,"If the trade-in device condition differs from the description (e.g., unreported screen cracks, liquid damage, third-party battery replacement), a revised valuation quote is sent via email. The customer has 7 calendar days to accept or decline the revised quote. If declined, the device will be shipped back free of charge.
+
+Evidence: 3 Evidence: followed by document number [1]",2064.8,344,78
+1,typical_5,typical,7,1,0.592,"Yes, high-value orders exceeding $750 value, including MacBooks, iPhones, and iPads, require a direct signature upon delivery.
+
+Evidence: 1",1204.9,267,34
+1,edge_1,edge,8,1,0.646,"Yes, you can combine education pricing with an Apple Trade-In offer on the same transaction. Evidence: followed by Document #1",1146.3,324,26
+1,edge_2,edge,1,1,0.644,"No, Apple Pencil 2nd Generation is NOT compatible with iPad Pro M4. Evidence: followed by document number [1].",1072.0,402,28
+1,edge_3,edge,2,1,0.562,"The highest-spec M3 laptop, which is the MacBook Pro M3 Max, can support up to 96GB Unified Memory.
+
+Evidence: followed by the relevant document numbers. Evidence: [1]",1677.0,366,42
+1,adversarial_1,adversarial,9,1,0.561,The notes do not say. Evidence: followed by the relevant document numbers. The provided notes do not mention any five-year free replacement warranty for Apple products.,1205.4,257,32
+1,adversarial_2,adversarial,0,1,0.535,The notes do not say. Evidence: followed by the relevant document numbers.,795.5,469,16
+2,typical_1,typical,"2,0","1,2","0.630,0.339","The maximum unified memory available for the MacBook Pro M3 Max is 96GB.
+
+Evidence: followed by the relevant document numbers.
+Evidence: [1]",1081.9,748,33
+2,typical_2,typical,"0,2","1,2","0.737,0.343",The iPhone 15 Pro Max can deliver up to 24 hours of video playback. Evidence: followed by the relevant document numbers. # iPhone Product & Specifications Guide,980.7,749,35
+2,typical_3,typical,"4,9","1,2","0.724,0.458","The Apple Watch Ultra 2 is certified for recreational scuba diving to 40 meters under EN13319.
+
+Evidence: 1## Water Resistance & Depth Limits",1472.7,517,37
+2,typical_4,typical,"6,9","1,2","0.560,0.422","If the trade-in device condition differs from the description, a revised valuation quote is sent via email. The customer has 7 calendar days to accept or decline this revised quote. If the quote is declined, the device will be shipped back free of charge.
+
+Evidence: followed by the relevant document numbers: # Apple Trade In Program Guidelines (1)",2172.0,511,70
+2,typical_5,typical,"7,6","1,2","0.592,0.451","Yes, high-value Apple orders, which exceed $750 in value including items like MacBooks, iPhones, and iPads, require a direct signature upon delivery.
+
+Evidence: 1## Signature Requirements & Address Changes",2083.1,525,45
+2,edge_1,edge,"8,6","1,2","0.646,0.508","Yes, you can combine education pricing with an Apple Trade In offer on the same transaction. Additionally, the online device limit for qualified purchasers under education pricing is one (1) desktop Mac, one (1) Mac mini, one (1) notebook Mac, and two (2) iPads per academic year.
+
+Evidence: 1## Higher Education Discount (Back to School), 1## Promotion Stacking Regulations",1420.0,582,84
+2,edge_2,edge,"1,0","1,2","0.644,0.284","No, Apple Pencil 2nd Generation is NOT compatible with iPad Pro M4. Evidence: followed by document number [1].",1354.3,782,28
+2,edge_3,edge,"2,0","1,2","0.562,0.306","The highest-spec M3 laptop model mentioned is the MacBook Pro M3 Max, which supports up to 96GB Unified Memory.
+
+Evidence: 1## Architecture & Memory Specs",1603.7,746,37
+2,adversarial_1,adversarial,"9,6","1,2","0.561,0.396","The notes do not say. Evidence: followed by the relevant document numbers. Document 1, Document 2",807.1,515,23
+2,adversarial_2,adversarial,"0,9","1,2","0.535,0.484","The notes do not say. Evidence: followed by the relevant document numbers. # E-commerce Product Listing & Compliance Regulations, # iPhone Product & Specifications Guide",1101.9,636,31
