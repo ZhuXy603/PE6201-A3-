@@ -1,0 +1,21 @@
+top_k,case_id,literal_required_terms_missing,literal_forbidden_claims_found,review_note
+1,typical_1,,,Heuristic flags only; paraphrases may be false positives/negatives. See manual score.
+1,typical_2,,,Heuristic flags only; paraphrases may be false positives/negatives. See manual score.
+1,typical_3,,,Heuristic flags only; paraphrases may be false positives/negatives. See manual score.
+1,typical_4,,,Heuristic flags only; paraphrases may be false positives/negatives. See manual score.
+1,typical_5,,,Heuristic flags only; paraphrases may be false positives/negatives. See manual score.
+1,edge_1,not compatible,,Heuristic flags only; paraphrases may be false positives/negatives. See manual score.
+1,edge_2,per year,,Heuristic flags only; paraphrases may be false positives/negatives. See manual score.
+1,edge_3,checkout,,Heuristic flags only; paraphrases may be false positives/negatives. See manual score.
+1,adversarial_1,one-year,,Heuristic flags only; paraphrases may be false positives/negatives. See manual score.
+1,adversarial_2,price,,Heuristic flags only; paraphrases may be false positives/negatives. See manual score.
+2,typical_1,,,Heuristic flags only; paraphrases may be false positives/negatives. See manual score.
+2,typical_2,,,Heuristic flags only; paraphrases may be false positives/negatives. See manual score.
+2,typical_3,,,Heuristic flags only; paraphrases may be false positives/negatives. See manual score.
+2,typical_4,,,Heuristic flags only; paraphrases may be false positives/negatives. See manual score.
+2,typical_5,,,Heuristic flags only; paraphrases may be false positives/negatives. See manual score.
+2,edge_1,not compatible,,Heuristic flags only; paraphrases may be false positives/negatives. See manual score.
+2,edge_2,per year,,Heuristic flags only; paraphrases may be false positives/negatives. See manual score.
+2,edge_3,checkout,,Heuristic flags only; paraphrases may be false positives/negatives. See manual score.
+2,adversarial_1,one-year,,Heuristic flags only; paraphrases may be false positives/negatives. See manual score.
+2,adversarial_2,price,,Heuristic flags only; paraphrases may be false positives/negatives. See manual score.

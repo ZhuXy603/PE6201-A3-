@@ -1,0 +1,19 @@
+{
+  "run_date": "2026-10-02 (from user terminal screenshot; exact timestamp not captured)",
+  "provider": "OpenRouter-compatible API (inferred from runner endpoint and successful run)",
+  "configured_default_model": "qwen/qwen-2.5-7b-instruct",
+  "actual_model_used": "not recorded in the historical run; default model is assumed only for the estimate below",
+  "model_override_variable": "PE6201_MODEL (historical value not captured)",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2 (runner reports local semantic embeddings)",
+  "api_calls": 20,
+  "prompt_tokens_total": 7947,
+  "completion_tokens_total": 748,
+  "pricing_assumption_usd_per_1m_tokens": {
+    "input": 0.1,
+    "output": 0.2
+  },
+  "pricing_source": "https://openrouter.ai/qwen/qwen-2.5-7b-instruct (checked 2026-10-02)",
+  "estimated_total_usd_if_default_model_was_used": 0.0009443,
+  "actual_billed_cost": "not captured; check OpenRouter activity for exact charge",
+  "truncation_note": "Observed completion token counts are 11\u201368 and answers end with a complete Evidence reference. finish_reason was not stored, so no definitive provider-side truncation check is available."
+}

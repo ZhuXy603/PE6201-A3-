@@ -1,0 +1,27 @@
+top_k,case_id,kind,retrieved_ids,retrieved_ranks,scores,answer,latency_ms,prompt_tokens,completion_tokens
+1,typical_1,typical,1,1,0.850,"The maximum unified memory supported by the MacBook Pro with M3 Max is 128GB, for the model with a 16-core CPU. Evidence: 1",5243.3,309,36
+1,typical_2,typical,0,1,0.861,"Apple lists iPhone 15 Pro Max video playback as up to 29 hours, and streamed video playback as up to 25 hours. These are Apple test results and actual results vary with use and settings. Evidence: 0",5260.4,248,49
+1,typical_3,typical,2,1,0.801,"Yes, the Apple Watch Ultra 2 is suitable for recreational scuba diving to a depth of 40 metres under EN13319. Evidence: [2]",817.3,287,37
+1,typical_4,typical,4,1,0.830,"Eligible products may be returned within 14 calendar days from receipt, subject to the terms and product-specific rules. Evidence: 4",7691.0,243,30
+1,typical_5,typical,5,1,0.772,The Apple Trade In partner needs to receive the device within 14 days after you get the trade-in estimate. Evidence: [5],883.9,274,29
+1,edge_1,edge,3,1,0.889,"Apple Pencil (2nd generation) is not listed as compatible with iPad Pro (M4). Apple lists Apple Pencil Pro and Apple Pencil (USB-C) as compatible with iPad Pro (M4).
+
+Evidence: 3",1531.6,263,48
+1,edge_2,edge,6,1,0.850,The yearly MacBook quantity limit under Apple Store for Education Singapore is one. Evidence: [6],710.9,251,20
+1,edge_3,edge,7,1,0.619,The notes do not say. Evidence: 7,768.3,257,11
+1,adversarial_1,adversarial,8,1,0.693,The notes do not say. Evidence: 8,514.6,256,11
+1,adversarial_2,adversarial,9,1,0.877,The notes do not provide a specific price for AppleCare+ for iPhone 15 Pro Max in Singapore. Evidence: [9],930.0,263,28
+2,typical_1,typical,"1,9","1,2","0.850,0.290","The maximum unified memory supported by the MacBook Pro with M3 Max is 128GB, for the model with a 16-core CPU. Evidence: 1",884.3,428,36
+2,typical_2,typical,"0,9","1,2","0.861,0.324","Apple lists iPhone 15 Pro Max video playback as up to 29 hours, and streamed video playback as up to 25 hours. These are Apple test results and actual results vary with use and settings. Evidence: 0",983.2,367,49
+2,typical_3,typical,"2,0","1,2","0.801,0.270",Apple Watch Ultra 2 is suitable for recreational scuba diving to a depth of 40 metres under EN13319. Evidence: [2],1515.2,390,34
+2,typical_4,typical,"4,5","1,2","0.830,0.700","You have 14 calendar days from the receipt to return an eligible Apple Online Store Singapore purchase, subject to the terms and product-specific rules. Evidence: 4",1595.9,371,34
+2,typical_5,typical,"5,4","1,2","0.772,0.519","Apple's trade-in partner needs to receive the device within 14 days after the customer gets the trade-in estimate.
+
+Evidence: [5]",966.1,375,30
+2,edge_1,edge,"3,4","1,2","0.889,0.241","Apple Pencil (2nd generation) is not listed as compatible with iPad Pro M4. Apple Pencil Pro and Apple Pencil (USB-C) are listed as compatible.
+
+Evidence: 3",1119.1,364,41
+2,edge_2,edge,"6,5","1,2","0.850,0.554",The yearly MacBook quantity limit under Apple Store for Education Singapore is one. Evidence: [6],5390.7,379,20
+2,edge_3,edge,"7,5","1,2","0.619,0.365",The notes do not say. Evidence: 7,496.0,385,11
+2,adversarial_1,adversarial,"8,5","1,2","0.693,0.372",The notes do not say. Evidence: 8,596.7,384,11
+2,adversarial_2,adversarial,"9,6","1,2","0.877,0.574",The notes do not provide a specific cost for AppleCare+ for iPhone 15 Pro Max in Singapore. Evidence: [9],896.4,373,28

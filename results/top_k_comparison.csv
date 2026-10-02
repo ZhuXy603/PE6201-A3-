@@ -1,0 +1,25 @@
+top_k,case_id,kind,retrieved_ids,retrieved_ranks,scores,answer,latency_ms,prompt_tokens,completion_tokens
+1,typical_1,typical,1,1,0.850,"The maximum unified memory supported by the MacBook Pro with M3 Max is 128GB for the model with a 16-core CPU. For the model with a 14-core CPU, the memory configuration is 96GB, but this is not the maximum across all M3 Max models.
+
+Evidence: 1",2581.4,383,68
+1,typical_2,typical,0,1,0.861,"Apple lists iPhone 15 Pro Max video playback as up to 29 hours, and streamed video playback as up to 25 hours. These are Apple test results and actual results may vary with use and settings. Evidence: 0",1332.8,322,50
+1,typical_3,typical,2,1,0.801,"Apple Watch Ultra 2 is suitable for recreational scuba diving to a depth of 40 metres under EN13319, with a ±1 metre accuracy. Evidence: 2",962.6,361,40
+1,typical_4,typical,4,1,0.830,"You have 14 calendar days from the date of receipt to return an eligible Apple Online Store Singapore purchase, subject to the terms and product-specific rules. Evidence: 4",1188.7,317,36
+1,typical_5,typical,5,1,0.772,The Apple Trade In partner has 14 days to receive your device after you get the trade-in estimate. Evidence: 5,5586.1,348,27
+1,edge_1,edge,3,1,0.889,"Apple Pencil (2nd generation) is not listed as compatible with iPad Pro M4. The Apple Pencil Pro and Apple Pencil (USB-C) are listed as compatible.
+
+Evidence: 3",1766.0,337,42
+1,edge_2,edge,6,1,0.850,The yearly MacBook quantity limit under Apple Store for Education Singapore is one. Evidence: 6,851.1,325,19
+1,edge_3,edge,7,1,0.619,The notes do not say. Check the specific order status for its requirement. Evidence: 7,622.4,331,20
+1,adversarial_1,adversarial,8,1,0.693,The notes do not say. Evidence: 8,637.0,330,11
+1,adversarial_2,adversarial,9,1,0.877,The notes do not provide a specific cost for AppleCare+ for iPhone 15 Pro Max in Singapore. You can check Apple's current Singapore coverage page or your order's checkout for the exact cost. Evidence: [9],2064.7,337,47
+2,typical_1,typical,"1,9","1,2","0.850,0.290","The maximum unified memory supported by the MacBook Pro with M3 Max is 128GB for the model with a 16-core CPU. For the model with a 14-core CPU, the memory configuration is 96GB, but this is not the maximum across all M3 Max models. Evidence: 1",1325.3,502,68
+2,typical_2,typical,"0,9","1,2","0.861,0.324","According to Apple's test results, iPhone 15 Pro Max can play video for up to 29 hours and streamed video for up to 25 hours. Actual usage may vary based on settings and use. Evidence: 0",1233.5,441,49
+2,typical_3,typical,"2,0","1,2","0.801,0.270","Apple Watch Ultra 2 is suitable for recreational scuba diving to a depth of 40 metres under EN13319, with a ±1 metre accuracy. However, Apple advises against using it for diving below 40 metres. Evidence: 2",6902.2,464,55
+2,typical_4,typical,"4,5","1,2","0.830,0.700","You have 14 calendar days from the receipt of the product to return an eligible Apple Online Store Singapore purchase, subject to the terms and product-specific rules. Evidence: 4",1683.5,445,37
+2,typical_5,typical,"5,4","1,2","0.772,0.519",The Apple Trade In partner in Singapore needs to receive the device within 14 days after the customer gets the trade-in estimate. Evidence: [5],1042.7,449,32
+2,edge_1,edge,"3,4","1,2","0.889,0.241","Apple Pencil (2nd generation) is not listed as compatible with iPad Pro M4. According to Apple, the compatible models are Apple Pencil Pro and Apple Pencil (USB-C). Evidence: [3]",1001.9,438,45
+2,edge_2,edge,"6,5","1,2","0.850,0.554",The yearly MacBook quantity limit under Apple Store for Education Singapore is one. Evidence: 6,696.7,453,19
+2,edge_3,edge,"7,5","1,2","0.619,0.365","The notes do not say. However, Apple does not state a universal S$750 or US$750 threshold for requiring a signature. Check the specific order status for its requirement. Evidence: 7",1081.0,459,45
+2,adversarial_1,adversarial,"8,5","1,2","0.693,0.372",The notes do not say. Evidence: 8,747.6,458,11
+2,adversarial_2,adversarial,"9,6","1,2","0.877,0.574",The notes do not provide a specific cost for AppleCare+ for iPhone 15 Pro Max in Singapore. Evidence: 9,1463.8,447,27
